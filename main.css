@@ -1,0 +1,27 @@
+
+.mae_num{
+    width: 9%;
+}
+.mae_num_checked{
+    background-color: black;
+    color: wheat;
+    width: 9%;
+}
+.desk_retsu{
+    display: flex;
+}
+.desk{
+    width: 120px;
+    height: 4rem;
+    border: 1px solid black;
+}
+.teacher_desk{
+    border: solid 1px black;
+    padding: 20px;
+}
+.item_none{
+    display: none;
+}
+.item_hide{
+    visibility:hidden;
+}

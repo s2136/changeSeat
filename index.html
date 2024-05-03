@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>席替え</title>    
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sousyoku.css">
 </head>
 <body>
     <!-- ステップごとに書いていきます！！ -->
     <!-- ステップ１　クラスの人数 -->
-    <div class="student_sum" id="student_sum">
+    <div class="student_sum bun" id="student_sum">
         <div>クラスの人数を入力してください</div>
         <input type="number" id="student_num" value="48">
         <button onclick="send_student_sum()">決定</button>
     </div>
 
     <!-- ステップ２　クラスの人数 -->
-    <div class="desk_sum item_none" id="desk_sum">
+    <div class="desk_sum item_none bun" id="desk_sum">
         <div>机の縦と横の列の数を入力してください</div>
         <div>
             <div>縦の列数</div>
@@ -30,7 +31,7 @@
     </div>
     
     <!-- ステップ３　机の選択 -->
-    <div class="desk_place item_none" id="desk_place">
+    <div class="desk_place item_none bun" id="desk_place">
         <div class="now_desk_sum">
             <span>選択中</span>
             <span id="now_desk_sum"></span>
@@ -41,14 +42,14 @@
     </div>
 
     <!-- ステップ４　前に行きたい人の数！ -->
-    <div class="motivate_num item_none" id="motivate_num">
+    <div class="motivate_num item_none bun" id="motivate_num">
         <div>
             前に行きたい人を選択！
         </div>
     </div>
 
     <!-- ステップ５　前とは？ -->
-    <div class="where_front item_none" id="where_front">
+    <div class="where_front item_none bun" id="where_front">
         <div>
             前の範囲を選択！
             <div>
@@ -63,7 +64,7 @@
 
     
     <!-- ステップ６　席替え！！ -->
-    <div class="change_seat item_none" id="change_seat">
+    <div class="change_seat item_none bun" id="change_seat">
         <div>
             席替え！！
         </div>

@@ -49,6 +49,7 @@ function choose_desk(){
 
         for (let j = 0; j < desk_yoko; j++) {
             let new_desk = document.createElement("input");
+            new_desk.classList.add("desk_btn");
             new_desk.type = "checkbox";
             new_desk.setAttribute('id',num);
             new_desk.setAttribute('checked',true);
@@ -162,6 +163,7 @@ function defend_mae() {
 
         for (let j = 0; j < desk_yoko; j++) {
             let new_desk = document.createElement("input");
+            new_desk.classList.add("desk_btn");
             new_desk.type = "checkbox";
             if (notUse_desk[not_use_num] == num) {
                 new_desk.classList.add("item_hide");
